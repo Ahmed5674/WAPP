@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Clone Repository') {
       steps {
-        git 'https://your-git-repo-url.git'
+        git 'https://github.com/Ahmed5674/WAPP'
       }
     }
     
